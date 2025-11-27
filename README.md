@@ -37,15 +37,3 @@ python -m venv venv
 source venv/bin/activate   # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ```
-
-project/
-│
-├─ data/
-│   ├─ barley_yield_from_1982.csv
-│   └─ climate_data_from_1982.parquet
-│
-├─ intermediate_point.ipynb
-├─ main.ipynb
-└─ README.md
-
-Raw data is not included in this repository (licensing constraints), and must be added manually to the data/ directory.
